@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev-start":"webpack --mode development",
+    "dev-start": "webpack --mode development",
     "build": "webpack"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
     "html-webpack-plugin": "^5.5.1",
     "webpack-dev-server": "^4.13.3"
   }
